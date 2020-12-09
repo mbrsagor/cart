@@ -5,12 +5,12 @@ class Cart {
         this.price = price;
     }
 
-    all() {
+    carConfig() {
         const config = `Car name is: ${this.name}\nProduct name:${this.product_name}\nPrice:${this.price}`;
         console.log(config);
     }
 }
 
 const my_car = new Cart('something', 'something 2', 129393);
-my_car.all();
+my_car.carConfig();
 
