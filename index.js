@@ -10,6 +10,7 @@ class Cart {
         console.log(config);
     }
 }
+
 const my_car = new Cart('something', 'something 2', 129393);
 my_car.all();
 
