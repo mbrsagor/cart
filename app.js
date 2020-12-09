@@ -1,3 +1,5 @@
 console.log("Hello world")
-let x = 10:
 
+const addName = name => console.log(`My name is : ${name}`);
+
+addName('Sagor');
