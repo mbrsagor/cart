@@ -1,6 +1,6 @@
 # Library-app
 
-The app is a `ember.js` basic curd web app which is backend server used `Django` restful `API`.
+The app is a `ember.js` basically crud web application which is backend server used `Django` restful `API`.
 
 ## Installation
 
@@ -19,12 +19,6 @@ The app is a `ember.js` basic curd web app which is backend server used `Django`
 * `ember test`
 * `ember test --server`
 
-### Linting
-
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
-
 ### Building
 
 * `ember build` (development)
@@ -35,5 +29,5 @@ The app is a `ember.js` basic curd web app which is backend server used `Django`
   - ```ember install ember-bootstrap```
 - Install SCSS
   - ```ember generate ember-bootstrap --preprocessor=sass```
-- Remove/Delete default `css`
+- Remove/Delete default CSS
   - ```emberrm ./app/styles/app.css```
