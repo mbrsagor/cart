@@ -1,1 +1,9 @@
-<h1>Contact US Page</h1>
+<h1>Contact Page</h1>
+<p>If you have any question or feedback please leave a message with your email address.</p>
+<br />
+
+{{input type="email" value=emailAddress class="form-control" placeholder="Your email address." autofocus="autofocus"}}
+<br />
+{{textarea class="form-control" placeholder="Your message. (At least 5 characters.)" rows="7" value=message}}
+<br />
+<button class="btn btn-success" disabled={{isDisabled}}>Send</button>
