@@ -7,7 +7,7 @@ export default Model.extend({
   name: DS.attr("string"),
   books: DS.hasMany("book", { inverse: "author", async: true }),
 
-  isNotValid: empty("name"),
+  // isNotValid: empty("name"),
 
   randomize() {
     this.set("name", Faker.name.findName());
