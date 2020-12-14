@@ -24,11 +24,7 @@ export default Route.extend({
     },
 
     willTransition() {
-      let model = this.controller.get('model');
-
-      if (model.get('isNew')) {
-        model.destroyRecord();
-      }
+     this.controller.get("model").rollbackAttributes();
     }
   }
 });
