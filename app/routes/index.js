@@ -14,6 +14,6 @@ export default Route.extend({
       }
 
       this.controller.set("responseMessage", false);
-    },
-  },
+    }
+  }
 });

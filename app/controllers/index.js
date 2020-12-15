@@ -9,10 +9,9 @@ export default Controller.extend({
   actions: {
     saveInvitation(newInvitation) {
       newInvitation
-        .save()
-        .then((response) => {
-          this.set("responseMessage", true);
-          this.set("model.email", "");
+        .save().then((response) => {
+          this.set('responseMessage', true);
+          this.set('model.email', '');
           console.log(response)
         })
         .catch((response) => console.log("error:", response));
