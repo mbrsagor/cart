@@ -12,8 +12,8 @@ Router.map(function() {
 
   this.route('admin', function() {
     this.route('seeder');
-    this.route('contact');
     this.route('invitations');
+    this.route('contacts');
   });
   this.route('libraries', function(){
     this.route('new');
