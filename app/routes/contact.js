@@ -6,8 +6,14 @@ export default Route.extend({
   },
 
   actions: {
-    sendMessage() {
-        
+    willTransition() {
+      let model = this.controller.get("model");
+
+      if (model.isNew) {
+        model.destroyRecord();
+      }
+
+      this.controller.set("responseMessage", false);
     }
   }
 });
