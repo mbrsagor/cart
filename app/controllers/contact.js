@@ -7,7 +7,7 @@ export default Controller.extend({
                 this.set('responseMessage', true);
                 this.set('model.email', '');
                 this.set('model.message', '');
-            });
+            }).catch((error) => {alert(`The error is: ${error}`);})
         },
     }
 });
